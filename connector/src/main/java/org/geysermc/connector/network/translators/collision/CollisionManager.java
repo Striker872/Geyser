@@ -283,14 +283,6 @@ public class CollisionManager {
     }
 
     /**
-     * @return if the player is currently in a water block
-     */
-    public boolean isPlayerInWater() {
-        return session.getConnector().getConfig().isCacheChunks()
-                && session.getConnector().getWorldManager().getBlockAt(session, session.getPlayerEntity().getPosition().toInt()) == BlockTranslator.JAVA_WATER_ID;
-    }
-
-    /**
      * Updates scaffolding entity flags
      * Scaffolding needs to be checked per-move since it's a flag in Bedrock but Java does it client-side
      */
