@@ -52,7 +52,7 @@ public abstract class BlockTranslator {
      * The Java block runtime ID of air
      */
     public static final int JAVA_AIR_ID = 0;
-    public static final int JAVA_WATER_ID;
+
     /**
      * The Bedrock block runtime ID of air
      */
